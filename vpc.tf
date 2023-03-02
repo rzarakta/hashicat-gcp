@@ -1,9 +1,9 @@
 module "network" {
   source  = "app.terraform.io/sammy-terraform/network/google"
-  version = "6.0.1"
+  version = "3.4.0"
   network_name = "gaurav-network"
   project_id = var.project_id
-  
+
   subnets = [
   {
     subnet_name   = "gaurav-subnet"
